@@ -10,13 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="assets/css/lightbox.css" rel="stylesheet" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/tokyo_headshot.jpg" alt="" /></span>
+					<span class="image avatar"><img src="images/tokyo_headshot_crop2.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Ethan Baldwin</a></h1>
 					<p>PhD candidate <br />
 					University of Georgia</p>
@@ -68,21 +69,21 @@
 									<p>I am currently working on my dissertation, where I am characterizing the evolutionary consequences of hybridization and introgression in the carnivorous plant genus <i>Sarracenia</i>.</p>
 									<div class="features">
 										<article>
-											<a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1237749/full" class="image"><img src="images/phylogeny.jpg" alt="" /></a>
+											<a href="images/phylogeny.jpg" class="image" data-lightbox="phylogeny"><img src="images/phylogeny.jpg" alt="" /></a>
 											<div class="inner">
 												<h4> <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1237749/full"><i>Sarracenia</i> plastid phylogenomics</a></h4>
 												<p>Plastome phylogenies that disagree with species phylogenies are often used as evidence for chloroplast capture, but rarely is this hypothesis formally tested against the null hypothesis of incomplete lineage sorting, which can also result in plastid tree discordance. In this study I use coalescent simulations to test this hypothesis, revealing widespread plastome capture throughout the genus.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/trio_binning.png" alt="" /></a>
+											<a href="images/trio_binning.png" class="image" data-lightbox="trio_binning"><img src="images/trio_binning.png" alt="" /></a>
 											<div class="inner">
 												<h4>Genome assembly</h4>
 												<p>I am assembling and annotating a chromosomal level reference genome for Sarracenia purpurea and Sarracenia psittacina. I sequenced an F1 hybrid between the two species and phased the haplotypes using a technique called trio-binning to produce two genomes for the price of one.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/psitt_purp_f2.png" alt="" /></a>
+											<a href="images/psitt_purp_f2.png" class="image" data-lightbox="psitt_purp_f2"><img src="images/psitt_purp_f2.png" alt="" /></a>
 											<div class="inner">
 												<h4>QTL mapping of pitcher traits</h4>
 												<p>I am mapping the genetic architecture of traits that differentiate the pitchers of S. purpurea and S. psittacina.</p>
@@ -470,6 +471,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lightbox.js"></script>
 
 	</body>
 </html>
